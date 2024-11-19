@@ -83,7 +83,7 @@ const Navbar = () => {
                     active === nav.title ? "text-white" : "text-secondary"
                   }`}
                   onClick={() => {
-                    setToggle(!toggle);
+                    setToggle((prevToggle) => !prevToggle);
                     setActive(nav.title);
                   }}
                 >

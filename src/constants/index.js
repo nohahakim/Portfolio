@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  front,
+  node,
+  next,
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +45,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Front-end Developer",
+    icon: front,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "React Developer",
+    icon: reactjs,
+  },
+  {
+    title: "Next.js Developer",
+    icon: next,
   },
   {
     title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
+    icon: node,
   },
 ];
 

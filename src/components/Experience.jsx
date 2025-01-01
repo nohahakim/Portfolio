@@ -1,3 +1,4 @@
+// export default SectionWrapper(Experience, "work");
 import { useState } from "react";
 import { motion } from "framer-motion";
 import {
@@ -6,67 +7,141 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
-import { styles } from "../styles";
-import { SectionWrapper } from "../hoc";
-import { textVariant } from "../utils/motion";
+import { styles } from "../styles"; // Ensure this path is correct
+import { SectionWrapper } from "../hoc"; // Ensure this path is correct
+import { textVariant } from "../utils/motion"; // Ensure this path is correct
 
-// Sample Data for Educational Journey
+// Improved Educational Data
 const educationalData = [
   {
     id: 1,
-    title: "B.Sc. in Computer Science",
-    institution: "XYZ University",
-    date: "2016 - 2020",
-    icon: "/assets/education-icon.png",
-    iconBg: "#E6DEDD",
+    title: "Nanodegree in Programming & Web Development",
+    institution: "Udacity",
+    date: "October 2022",
+    icon: "/src/assets/udacity_logo.jpeg", // Replace with your actual icon path
+    iconBg: "#2116f4",
     points: [
-      "Graduated with honors",
-      "Specialized in Software Engineering",
-      "Participated in multiple programming clubs and hackathons",
+      "Completed an intensive program focused on the latest web development technologies and programming practices.",
+      "Developed projects using HTML, CSS, JavaScript, and modern frameworks.",
+      "Collaborated with peers on real-world applications to enhance practical skills.",
     ],
   },
   {
     id: 2,
-    title: "High School Diploma",
-    institution: "ABC High School",
-    date: "2012 - 2016",
-    icon: "/assets/school-icon.png",
+    title: "Nanodegree in Connect Mentorship",
+    institution: "Udacity",
+    date: "September 2022",
+    icon: "/src/assets/udacity_logo.jpeg",
+    iconBg: "#2116f4",
+    points: [
+      "Earned a certificate of graduation, demonstrating proficiency in mentorship and leadership within technical projects.",
+      "Provided guidance and support to peers, fostering a collaborative learning environment.",
+      "Enhanced communication and project management skills through active mentorship roles.",
+    ],
+  },
+  {
+    id: 3,
+    title: "Nanodegree in Front-End Web Development",
+    institution: "Udacity",
+    date: "November 2021 - January 2022",
+    icon: "/src/assets/udacity_logo.jpeg",
+    iconBg: "#2116f4",
+    points: [
+      "Specialized in creating responsive and user-friendly front-end applications using modern frameworks.",
+      "Implemented best practices in UI/UX design to improve user engagement and accessibility.",
+      "Completed multiple projects showcasing proficiency in front-end technologies.",
+    ],
+  },
+  {
+    id: 4,
+    title: "Challenger Track in Web Development",
+    institution: "Udacity",
+    date: "August 2021 - October 2021",
+    icon: "/src/assets/udacity_logo.jpeg",
+    iconBg: "#2116f4",
+    points: [
+      "Engaged in advanced web development projects, honing skills in both front-end and back-end technologies.",
+      "Collaborated with a diverse team to deliver high-quality web applications.",
+      "Adapted to emerging technologies and integrated them into project workflows.",
+    ],
+  },
+  {
+    id: 5,
+    title: "Postgraduate Diploma in Bioinformatics",
+    institution: "Ain Shams University",
+    date: "September 2020 - July 2021",
+    grade: "A",
+    icon: "/src/assets/graduate.png",
+
     iconBg: "#E6DEDD",
     points: [
-      "Focused on Mathematics and Computer Basics",
-      "Participated in Science Fairs",
+      "Focused on the intersection of biology and information technology, developing computational methods for analyzing biological data.",
+      "Conducted research projects that contributed to advancements in bioinformatics.",
+      "Mastered various bioinformatics tools and software for data analysis.",
+    ],
+  },
+  {
+    id: 6,
+    title: "Postgraduate Diploma in Business Management",
+    institution: "Ain Shams University",
+    date: "September 2018 - June 2020",
+    grade: "Very Good",
+    icon: "/src/assets/graduate.png",
+    iconBg: "#E6DEDD",
+    points: [
+      "Gained comprehensive knowledge in business strategies, management principles, and organizational behavior.",
+      "Developed skills in project management, leadership, and strategic planning.",
+      "Participated in business simulations and case studies to apply theoretical knowledge.",
+    ],
+  },
+  {
+    id: 7,
+    title: "Bachelor's Degree in Pharmacy",
+    institution: "Cairo University",
+    date: "Graduated",
+    grade: "Good",
+    icon: "/src/assets/graduate.png",
+
+    iconBg: "#E6DEDD",
+    points: [
+      "Studied pharmaceutical sciences, including drug development, pharmacology, and patient care.",
+      "Completed internships in various pharmacy settings, gaining practical experience.",
+      "Engaged in research projects focused on medication efficacy and safety.",
     ],
   },
 ];
 
-// Sample Data for Technical Journey
+// Placeholder for Technical Data (Replace with your actual technical/professional experience)
 const technicalData = [
   {
     id: 1,
-    title: "Front-end Developer",
-    company_name: "TechCorp",
-    date: "2021 - Present",
-    icon: "/assets/frontend-icon.png",
-    iconBg: "#383E56",
+    title: "Web Development Session Lead",
+    company_name: "Udacity DECI",
+    date: "December 2023 - Present",
+    icon: "/src/assets/udacity_logo.jpeg", // Replace with your actual icon path
+    iconBg: "#2116f4", // Gold background color
     points: [
-      "Built reusable UI components using React & Tailwind CSS",
-      "Collaborated with design teams to implement modern UX features",
-      "Optimized application for speed and scalability",
+      "Guide students through complex web development concepts, including HTML, CSS, JavaScript, and modern frameworks.",
+      "Provide personalized mentorship to address individual learning needs and project challenges.",
+      "Review student projects, offering detailed feedback to facilitate continuous improvement.",
+      "Foster a collaborative and engaging learning community among students.",
     ],
   },
   {
     id: 2,
-    title: "Intern Developer",
-    company_name: "Startup Inc.",
-    date: "2020 - 2021",
-    icon: "/assets/intern-icon.png",
-    iconBg: "#383E56",
+    title: "Front-end Developer",
+    company_name: "Sprints.ai - Industry Exposure Program",
+    date: "March 2022 - June 2022",
+    icon: "/src/assets/sprintsai_logo.jpeg", // Replace with your actual icon path
+    iconBg: "#024eff", // DodgerBlue background color
     points: [
-      "Assisted in building RESTful APIs",
-      "Implemented basic features in a React Native project",
-      "Learned Agile methodologies and SCRUM",
+      "Collaborated on e-commerce and e-banking system projects within a dynamic team environment.",
+      "Utilized Git and GitHub for version control, ensuring efficient workflow and code management.",
+      "Applied Agile methodologies to enhance project development cycles and team productivity.",
+      "Developed responsive and user-friendly interfaces, improving overall user experience.",
     ],
   },
+  // Add more technical experiences as needed
 ];
 
 // Framer Motion Variant for Animations
@@ -104,6 +179,11 @@ const ExperienceCard = ({ item, isEducation }) => (
       >
         {isEducation ? item.institution : item.company_name}
       </p>
+      {item.grade && (
+        <p className="text-secondary text-[14px] font-medium">
+          Grade: {item.grade}
+        </p>
+      )}
     </div>
     <ul className="mt-5 list-disc ml-5 space-y-2">
       {item.points.map((point, index) => (
@@ -117,7 +197,7 @@ const ExperienceCard = ({ item, isEducation }) => (
 
 // Main Experience Component
 const Experience = () => {
-  const [activeTab, setActiveTab] = useState("education"); // "education" or "technical"
+  const [activeTab, setActiveTab] = useState("technical"); // "education" or "technical"
 
   // Determine which data to display based on the active tab
   const displayData =
@@ -137,12 +217,22 @@ const Experience = () => {
           What I Have Done So Far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          {isEducation ? "Educational Journey" : "Technical Journey"}
+          {isEducation ? "Educational Journey" : "Professional Experience"}
         </h2>
       </motion.div>
 
       {/* Tab Buttons */}
       <div className="flex space-x-4 mb-8">
+        <button
+          className={`px-4 py-2 rounded ${
+            activeTab === "technical"
+              ? "bg-purple-600 text-white"
+              : "bg-gray-200 text-black"
+          } transition-colors duration-300`}
+          onClick={() => setActiveTab("technical")}
+        >
+          Professional Experience
+        </button>
         <button
           className={`px-4 py-2 rounded ${
             activeTab === "education"
@@ -152,16 +242,6 @@ const Experience = () => {
           onClick={() => setActiveTab("education")}
         >
           Educational Journey
-        </button>
-        <button
-          className={`px-4 py-2 rounded ${
-            activeTab === "technical"
-              ? "bg-purple-600 text-white"
-              : "bg-gray-200 text-black"
-          } transition-colors duration-300`}
-          onClick={() => setActiveTab("technical")}
-        >
-          Technical Journey
         </button>
       </div>
 

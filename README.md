@@ -1,4 +1,3 @@
-````markdown
 # Portfolio Website 🚀
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
@@ -12,15 +11,14 @@ A modern and responsive portfolio website built with **React**, **Vite**, and **
 
 ## Table of Contents 📚
 
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Demo](#demo)
-- [Installation](#installation)
-- [Scripts](#scripts)
-- [Contributing](#contributing)
-- [License](#license)
-- [Author](#author)
+- [Portfolio Website 🚀](#portfolio-website-)
+  - [Table of Contents 📚](#table-of-contents-)
+  - [Features ✨](#features-)
+  - [Tech Stack 🛠️](#tech-stack-️)
+  - [Project Structure 📁](#project-structure-)
+  - [Scripts 🏃‍♂️](#scripts-️)
+  - [License 📝](#license-)
+  - [Author 👤](#author-)
 
 ## Features ✨
 
@@ -59,7 +57,7 @@ A modern and responsive portfolio website built with **React**, **Vite**, and **
 
 ## Project Structure 📁
 
-```plaintext
+````plaintext
 src/
 ├── assets/            # Images, icons, and static assets
 ├── components/        # Reusable React components
@@ -68,16 +66,7 @@ src/
 ├── styles/            # Custom styles and Tailwind CSS configuration
 ├── utils/             # Utility functions and motion variants
 └── App.jsx            # Main app entry point
-```
-````
 
-- **assets/**: Contains all static files such as images and icons.
-- **components/**: Modular and reusable components like Navbar, Footer, ProjectCard, etc.
-- **constants/**: Holds static data for easy management and scalability.
-- **hoc/**: Higher-order components to enhance existing components.
-- **styles/**: Tailwind CSS configurations and custom styling.
-- **utils/**: Utility functions, helper methods, and animation variants.
-- **App.jsx**: The root component that ties all parts together.
 
 ## Demo 🎬
 
@@ -97,7 +86,7 @@ Check out the live demo [here](https://your-portfolio-demo.com).
    ```bash
    git clone https://github.com/your-username/portfolio.git
    cd portfolio
-   ```
+````
 
 2. **Install dependencies:**
 
@@ -113,17 +102,7 @@ Check out the live demo [here](https://your-portfolio-demo.com).
    yarn install
    ```
 
-3. **Configure Environment Variables:**
-
-   Create a `.env` file in the root directory and add the necessary environment variables (e.g., Email.js keys).
-
-   ```env
-   VITE_EMAILJS_USER_ID=your_user_id
-   VITE_EMAILJS_SERVICE_ID=your_service_id
-   VITE_EMAILJS_TEMPLATE_ID=your_template_id
-   ```
-
-4. **Run the development server:**
+3. **Run the development server:**
 
    Using npm:
 
@@ -137,7 +116,7 @@ Check out the live demo [here](https://your-portfolio-demo.com).
    yarn dev
    ```
 
-5. **Open your browser and navigate to:**
+4. **Open your browser and navigate to:**
 
    ```
    http://localhost:5173
@@ -147,37 +126,6 @@ Check out the live demo [here](https://your-portfolio-demo.com).
 
 - **`npm run dev`** - Start the development server.
 - **`npm run build`** - Create a production build.
-- **`npm run preview`** - Preview the production build locally.
-- **`npm run lint`** - Lint the code using ESLint.
-- **`npm run format`** - Format the code using Prettier (if configured).
-
-## Contributing 🤝
-
-Contributions are welcome! To contribute:
-
-1. **Fork the repository.**
-
-2. **Create a new branch:**
-
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-
-3. **Commit your changes:**
-
-   ```bash
-   git commit -m "Add your feature"
-   ```
-
-4. **Push the changes:**
-
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-
-5. **Submit a pull request.**
-
-Please make sure to follow the [Code of Conduct](./CODE_OF_CONDUCT.md) and adhere to the [contribution guidelines](./CONTRIBUTING.md).
 
 ## License 📝
 
@@ -186,3 +134,7 @@ This project is licensed under the [MIT License](./LICENSE).
 ## Author 👤
 
 **Noha Abdelghafar**
+
+```
+
+```

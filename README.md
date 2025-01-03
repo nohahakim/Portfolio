@@ -1,3 +1,4 @@
+````markdown
 # Portfolio Website 🚀
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
@@ -7,8 +8,6 @@
 
 A modern and responsive portfolio website built with **React**, **Vite**, and **Tailwind CSS**. This site showcases personal skills, projects, and experiences, providing an engaging platform to connect with potential clients or employers.
 
-![Portfolio Screenshot](./assets/screenshot.png) <!-- Replace with actual screenshot -->
-
 ## Table of Contents 📚
 
 - [Portfolio Website 🚀](#portfolio-website-)
@@ -16,7 +15,10 @@ A modern and responsive portfolio website built with **React**, **Vite**, and **
   - [Features ✨](#features-)
   - [Tech Stack 🛠️](#tech-stack-️)
   - [Project Structure 📁](#project-structure-)
-  - [Scripts 🏃‍♂️](#scripts-️)
+  - [Installation 🛠️](#installation-)
+    - [Prerequisites](#prerequisites)
+    - [Steps](#steps)
+  - [Scripts 🏃‍♂️](#scripts-)
   - [License 📝](#license-)
   - [Author 👤](#author-)
 
@@ -57,7 +59,7 @@ A modern and responsive portfolio website built with **React**, **Vite**, and **
 
 ## Project Structure 📁
 
-````plaintext
+```plaintext
 src/
 ├── assets/            # Images, icons, and static assets
 ├── components/        # Reusable React components
@@ -66,11 +68,8 @@ src/
 ├── styles/            # Custom styles and Tailwind CSS configuration
 ├── utils/             # Utility functions and motion variants
 └── App.jsx            # Main app entry point
-
-
-## Demo 🎬
-
-Check out the live demo [here](https://your-portfolio-demo.com).
+```
+````
 
 ## Installation 🛠️
 
@@ -86,7 +85,7 @@ Check out the live demo [here](https://your-portfolio-demo.com).
    ```bash
    git clone https://github.com/your-username/portfolio.git
    cd portfolio
-````
+   ```
 
 2. **Install dependencies:**
 

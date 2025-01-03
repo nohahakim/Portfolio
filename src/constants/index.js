@@ -1,8 +1,4 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
   javascript,
   typescript,
   html,
@@ -20,12 +16,15 @@ import {
   tesla,
   shopify,
   carrent,
+  webshop,
+  wouldYouRather,
   jobit,
   tripguide,
   threejs,
   front,
   node,
   next,
+  shoptrends,
 } from "../assets";
 
 export const navLinks = [
@@ -174,97 +173,147 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
   {
-    name: "Car Rent",
+    name: "Webshop eCommerce Platform",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A robust MERN stack eCommerce solution enhanced with Redux Toolkit, enabling users to effortlessly browse, search, and purchase items with secure payment integrations.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "purple-text-gradient",
       },
       {
         name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "express",
+        color: "gray-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "jwt",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "paypal",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react-bootstrap",
         color: "pink-text-gradient",
       },
+      {
+        name: "react-router",
+        color: "orange-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: webshop,
+    source_code_link: "https://github.com/nohahakim/WebShop",
+    live_demo_link: "https://webshop-swd1.onrender.com/",
   },
+
   {
-    name: "Job IT",
+    name: "Would You Rather Game",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An engaging 'Would You Rather' application built with React and Redux, allowing users to create and answer dilemmas, track scores on a live leaderboard, and enjoy a responsive design.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "redux",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "react-router",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "web-app",
+        color: "orange-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: wouldYouRather,
+    source_code_link: "https://github.com/nohahakim/reactnd-Would-You-Rather",
+    live_demo_link: "https://nohahakim.github.io/reactnd-Would-You-Rather/",
   },
+
   {
-    name: "Trip Guide",
+    name: "Advanced E-Commerce with React & Keystone.js",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A scalable full-stack eCommerce platform developed with React, Next.js, Keystone.js, and GraphQL, featuring user authentication, role-based permissions, comprehensive testing, and seamless payment integration.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "nextjs",
+        color: "black-text-gradient",
+      },
+      {
+        name: "keystonejs",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "graphql",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "styled-components",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "apollo",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "jest",
+        color: "red-text-gradient",
+      },
+      {
+        name: "react-testing-library",
         color: "green-text-gradient",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "stripe",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "cloudinary",
+        color: "skyblue-text-gradient",
+      },
+      {
+        name: "authentication",
+        color: "teal-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: shoptrends,
+    source_code_link: "https://github.com/nohahakim/ShopTrends",
+    live_demo_link: "https://github.com/nohahakim/ShopTrends",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

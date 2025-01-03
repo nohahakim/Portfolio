@@ -21,6 +21,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import reactnative from "./tech/reactnative.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -28,7 +29,10 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import webshop from "./webshop.png";
+import shoptrends from "./shoptrends.png";
 import jobit from "./jobit.png";
+import wouldYouRather from "./wouldYouRather.png";
 import tripguide from "./tripguide.png";
 import front from "./front.png";
 import node from "./node.png";
@@ -57,11 +61,15 @@ export {
   tailwind,
   typescript,
   threejs,
+  reactnative,
   meta,
   shopify,
   starbucks,
   tesla,
   carrent,
+  shoptrends,
+  webshop,
+  wouldYouRather,
   jobit,
   tripguide,
   front,

@@ -7,12 +7,12 @@ import typescript from "../assets/tech/typescript.png";
 import reactjs from "../assets/tech/reactjs.png";
 import redux from "../assets/tech/redux.png";
 import tailwind from "../assets/tech/tailwind.png";
+import reactnative from "../assets/tech/reactnative.png";
 import nodejs from "../assets/tech/nodejs.png";
 import mongodb from "../assets/tech/mongodb.png";
 import threejs from "../assets/tech/threejs.svg";
 import git from "../assets/tech/git.png";
 import figma from "../assets/tech/figma.png";
-import docker from "../assets/tech/docker.png";
 
 const technologies = [
   {
@@ -77,8 +77,8 @@ const technologies = [
   },
   {
     id: 13,
-    name: "Docker",
-    icon: docker,
+    name: "React Native",
+    icon: reactnative,
   },
 ];
 

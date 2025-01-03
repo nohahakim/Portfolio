@@ -10,7 +10,7 @@ function Footer() {
         </p>
         <div className="flex space-x-4">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/nohahakim"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-purple-400 transition-transform duration-300 hover:scale-125"
@@ -18,7 +18,7 @@ function Footer() {
             <FaGithub size={20} />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/noha-abdelghafar-221219194/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-purple-400 transition-transform duration-300 hover:scale-125"
@@ -26,7 +26,7 @@ function Footer() {
             <FaLinkedin size={20} />
           </a>
           <a
-            href="mailto:youremail@example.com"
+            href="mailto:noha.hakim75@gmail.com"
             className="hover:text-purple-400 transition-transform duration-300 hover:scale-125"
           >
             <FaEnvelope size={20} />

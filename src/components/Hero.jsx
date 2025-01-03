@@ -24,9 +24,9 @@ const Hero = () => {
           </h1>
           <TypeAnimation
             sequence={[
-              "I develop 3D visuals",
+              "Creative Frontend Developer",
               2000,
-              "User Interfaces",
+              "React Developer",
               2000,
               "Web Applications",
               2000,
@@ -48,7 +48,7 @@ const Hero = () => {
           {/* Social Icons and Resume Button */}
           <div className="flex justify-start pt-5 space-x-6">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/nohahakim"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white opacity-75 hover:text-[#915EFF] transition duration-300 transform hover:scale-125"
@@ -57,7 +57,7 @@ const Hero = () => {
               <FaGithub size={30} />
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/noha-abdelghafar-221219194/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white opacity-75 hover:text-[#915EFF] transition duration-300 transform hover:scale-125"
@@ -66,7 +66,7 @@ const Hero = () => {
               <FaLinkedin size={30} />
             </a>
             <a
-              href="mailto:youremail@example.com"
+              href="mailto:noha.hakim75@gmail.com"
               className="text-white opacity-75 hover:text-[#915EFF] transition duration-300 transform hover:scale-125"
               aria-label="Email"
             >
@@ -74,7 +74,7 @@ const Hero = () => {
             </a>
             {/* Resume Button with Icon and Text */}
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/1CLSWwi8uKBGB-dyqHAZfFK8REc3SnjvR/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center text-white opacity-75 hover:text-[#915EFF] transition duration-300 transform hover:scale-105 border border-[#915EFF] px-4 py-2 rounded-md"

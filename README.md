@@ -1,4 +1,3 @@
-````markdown
 # Portfolio Website 🚀
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
@@ -15,10 +14,10 @@ A modern and responsive portfolio website built with **React**, **Vite**, and **
   - [Features ✨](#features-)
   - [Tech Stack 🛠️](#tech-stack-️)
   - [Project Structure 📁](#project-structure-)
-  - [Installation 🛠️](#installation-)
+  - [Installation 🛠️](#installation-️)
     - [Prerequisites](#prerequisites)
     - [Steps](#steps)
-  - [Scripts 🏃‍♂️](#scripts-)
+  - [Scripts 🏃‍♂️](#scripts-️)
   - [License 📝](#license-)
   - [Author 👤](#author-)
 
@@ -68,8 +67,8 @@ src/
 ├── styles/            # Custom styles and Tailwind CSS configuration
 ├── utils/             # Utility functions and motion variants
 └── App.jsx            # Main app entry point
+
 ```
-````
 
 ## Installation 🛠️
 

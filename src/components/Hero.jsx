@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { TypeAnimation } from "react-type-animation";
@@ -13,7 +12,7 @@ const Hero = () => {
         {/* Left Column: Text */}
         <div className="flex-1 flex flex-col justify-center">
           <span className="text-sm lg:text-base font-[500]  font-Lora text-yellow-600">
-            Hi there!👋, I'm
+            Hi there!👋, I&apos;m
           </span>
           <h1
             className="text-3xl md:text-5xl font-extrabold 

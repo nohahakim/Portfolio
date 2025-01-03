@@ -1,4 +1,4 @@
-simport React from "react";
+import PropTypes from "prop-types"; // Import PropTypes
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -8,6 +8,7 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
+// Define the ProjectCard component with PropTypes
 const ProjectCard = ({
   index,
   name,
@@ -82,6 +83,21 @@ const ProjectCard = ({
   );
 };
 
+ProjectCard.propTypes = {
+  index: PropTypes.number.isRequired,
+  name: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  tags: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      color: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+  image: PropTypes.string.isRequired,
+  source_code_link: PropTypes.string.isRequired,
+  live_demo_link: PropTypes.string.isRequired,
+};
+
 const Works = () => {
   return (
     <>
@@ -112,4 +128,6 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "projects");
+const WrappedWorks = SectionWrapper(Works, "projects");
+
+export default WrappedWorks;

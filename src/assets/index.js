@@ -37,6 +37,7 @@ import tripguide from "./tripguide.png";
 import front from "./front.png";
 import node from "./node.png";
 import next from "./next.png";
+import dwello from "./dwello.png";
 
 export {
   logo,
@@ -75,4 +76,5 @@ export {
   front,
   node,
   next,
+  dwello,
 };

@@ -22,6 +22,7 @@ import {
   node,
   next,
   shoptrends,
+  dwello,
 } from "../assets";
 
 export const navLinks = [
@@ -171,6 +172,46 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "Dwello",
+    description:
+      "Dwello, a modern, full-stack property rental platform built with Next.js. It allows users to browse, search, and manage property listings with features such as user authentication, property CRUD operations, image uploads, internal messaging, and more.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "black-text-gradient",
+      },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+
+      {
+        name: "cloudinary",
+        color: "skyblue-text-gradient",
+      },
+      {
+        name: "photoswipe",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "teal-text-gradient",
+      },
+      {
+        name: "next-auth",
+        color: "purple-text-gradient",
+      },
+    ],
+    image: dwello,
+    source_code_link: "https://github.com/nohahakim/Dwello",
+    live_demo_link: "https://dwello-drab.vercel.app/",
+  },
+
   {
     name: "Webshop eCommerce Platform",
     description:
